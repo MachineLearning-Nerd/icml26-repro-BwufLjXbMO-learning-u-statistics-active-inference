@@ -1,0 +1,26 @@
+[
+  {
+    "text": "The AIPW U-statistic estimator using augmented inverse probability weighting is proven unbiased, satisfying E[U_AIPW^\u03c0] = \u03b8* (Proposition 2.1).",
+    "status": "unverified"
+  },
+  {
+    "text": "The variance-minimizing (optimal) sampling probability is proportional to the square root of a residual-uncertainty term derived from the Hoeffding projection, depending on h1(Y) \u2212 h1^\u03bc(\u0176) rather than the raw prediction error |Y \u2212 \u0176| (Theorem 2.2, Section 2.2).",
+    "status": "unverified"
+  },
+  {
+    "text": "A central limit theorem is established for the normalized AIPW U-statistic under data-adaptive sampling, enabling computable asymptotic confidence intervals via a common-random-number coupling argument (Theorem 2.4).",
+    "status": "unverified"
+  },
+  {
+    "text": "On the ACS income dataset, active sampling for the Gini index achieves roughly 60% labeling-budget reduction relative to uniform sampling while maintaining 90% confidence-interval coverage (Section 4.1, Figure 1).",
+    "status": "unverified"
+  },
+  {
+    "text": "On the VitalDB perioperative dataset, the active Wilcoxon signed-rank test for hemoglobin shifts requires approximately 20% less labeling budget than the classical baseline for equivalent precision (Section 4.2, Figure 2).",
+    "status": "unverified"
+  },
+  {
+    "text": "On the political-bias dataset, active estimation of Kendall's \u03c4 for LLM label quality reduces the labeling budget by about 20% versus the classical baseline and about 10% versus uniform sampling (Section 4.3, Figure 3).",
+    "status": "unverified"
+  }
+]

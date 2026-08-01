@@ -1,0 +1,19 @@
+{
+  "retrieved_at_utc": "2026-08-01T04:32:31.350877+00:00",
+  "openreview_id": "BwufLjXbMO",
+  "claim_count": 6,
+  "max_points": 12,
+  "claim_precedence": "claims_anchored.json overrides claims.json",
+  "sources": {
+    "live_snapshot": "outputs/live/20260801T043037Z",
+    "paper": "https://arxiv.org/abs/2605.11638",
+    "arxiv_source": "https://arxiv.org/e-print/2605.11638"
+  },
+  "sha256": {
+    "metadata.json": "75da97faeb8981d7f87619a0a5938eeedb4324ee1c0625280fb897bfec0e1759",
+    "live_claims.json": "187f4d8b3aadf74c2fd9dae3df47ceef71763204fc5db66c52b0b331b100d9be",
+    "challenge_README.md": "027f66e6da758c4a0d75fff6c9298e5322dde64d21a97d33e4367e42c3a421c5",
+    "arxiv_source.tar": "b869beb747d8c50c12dfbe3c13a2420f58334814a6d80bbac9748ae19b73ef9a",
+    "paper.pdf": "125212f969043a60dc48f699251523062ea5e7c525aaf671b090ac0158cc360f"
+  }
+}
