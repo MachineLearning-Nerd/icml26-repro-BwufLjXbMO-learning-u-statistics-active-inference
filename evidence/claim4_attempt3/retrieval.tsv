@@ -1,0 +1,6 @@
+200	https://www.census.gov/programs-surveys/acs/microdata.html	response_1.html
+404	https://www.census.gov/programs-surveys/acs/data/pums.html	response_2.html
+200	https://www2.census.gov/programs-surveys/acs/data/pums/2023/1-Year/	response_3.html
+200	https://www2.census.gov/programs-surveys/acs/data/pums/2022/1-Year/	response_4.html
+200	https://api.census.gov/data.html	response_5.html
+404	https://proceedings.neurips.cc/paper_files/paper/2021/hash/7c141f4b4f1e5a1e6b6b3d601bf5a8f1-Abstract.html	response_6.html

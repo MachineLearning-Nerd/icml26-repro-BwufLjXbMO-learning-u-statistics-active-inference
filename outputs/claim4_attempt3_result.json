@@ -1,0 +1,27 @@
+{
+  "audit_type": "independent_primary_acs_archive_and_source_protocol_availability",
+  "census_primary_records": {
+    "distinct_2022_2023_archive_listing_hashes": true,
+    "microdata_page_http_status": "200",
+    "pums_2022_1_year_directory_http_status": "200",
+    "pums_2023_1_year_directory_http_status": "200"
+  },
+  "next_action": "claim_4_falsification_literal_uniform_comparator_source_scope",
+  "paper_acs_section": {
+    "explicitly_names_60_percent_comparator": true,
+    "explicitly_names_uniform_60_percent_comparator": false,
+    "identifies_acs_and_income_target": true,
+    "required_protocol_fields_not_specified": [
+      "ACS/PUMS release year and 1-year/5-year product",
+      "geographic extraction and row eligibility filters",
+      "income target transformation and feature encoding",
+      "train/auxiliary/test split and random seeds",
+      "XGBoost and proxy-model hyperparameters",
+      "active/classical/uniform replicate-level results"
+    ],
+    "states_xgboost_for_prediction_and_proxy": true
+  },
+  "reason": "Official Census records expose distinct ACS/PUMS release archives, but the paper's ACS section does not identify a release, extraction, transformation, split, seed, model configuration, or replicate outputs. The source explicitly attaches roughly 60% reduction to the classical baseline and does not state that same number relative to uniform. An ACS proxy would therefore not resolve the live uniform-comparison claim.",
+  "source_faithful_cpu_run_executed": false,
+  "verdict": "inconclusive_source_artifact_scope"
+}
