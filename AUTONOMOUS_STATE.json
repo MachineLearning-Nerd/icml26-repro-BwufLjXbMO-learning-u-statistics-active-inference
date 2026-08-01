@@ -59,7 +59,7 @@
     "6": 0
   },
   "last_checkpoint": "2026-08-01T05:37:12Z",
-  "last_known_git_commit": "PENDING_COMMIT",
+  "last_known_git_commit": "d2a07c0a1392bbc0ff017e0ce5f77c3c6c892aa2",
   "publication_allowed": false,
   "selection_rationale": "Six live claims; source archive is public and contains formulas/figures; theoretical Claims 1-3 admit CPU clean-room audits. Claims 4-6 require separate public-data/protocol availability checks before empirical work.",
   "github_repository": "https://github.com/MachineLearning-Nerd/icml26-repro-BwufLjXbMO-learning-u-statistics-active-inference",
