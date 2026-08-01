@@ -1,0 +1,42 @@
+{
+  "budget": 1.5,
+  "clipping_active": false,
+  "finite_grid_best": {
+    "objective": 0.628882391163093,
+    "pi": [
+      0.72,
+      0.4,
+      0.38
+    ],
+    "step": 0.01
+  },
+  "kernel": "abs(y1-y2) (Gini U-statistic)",
+  "leading_objective_optimal": 0.6288614428874808,
+  "leading_objective_raw_residual_control": 0.6565200974529647,
+  "leading_objective_uniform": 0.6902222222222223,
+  "optimal_pi_sqrt_s": [
+    0.720733861531131,
+    0.3965484573121941,
+    0.38271768115667476
+  ],
+  "projection_score_s": [
+    0.6533333333333334,
+    0.19777777777777789,
+    0.18422222222222218
+  ],
+  "raw_prediction_mse": [
+    3.3600000000000003,
+    1.6400000000000001,
+    2.5999999999999996
+  ],
+  "raw_residual_pi_sqrt_mse_negative_control": [
+    0.5817781116628473,
+    0.4064523725921989,
+    0.5117695157449537
+  ],
+  "uniform_pi": [
+    0.5,
+    0.5,
+    0.5
+  ]
+}
