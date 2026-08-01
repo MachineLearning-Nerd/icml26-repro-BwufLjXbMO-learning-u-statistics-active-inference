@@ -1,0 +1,118 @@
+{
+  "source": {
+    "equation": "ICML_Camera-ready.tex lines 233-245 (Equation AIPW_pi / Proposition 2.1)",
+    "kernel": "h(y_i,y_j)=|y_i-y_j|",
+    "n": 3,
+    "r": 2,
+    "positivity": [
+      0.2,
+      0.55,
+      0.8
+    ],
+    "iid_bernoulli_outcome_probability": 0.3,
+    "predictions": [
+      0.1,
+      0.7,
+      0.4
+    ]
+  },
+  "enumeration_cells": 64,
+  "theta_star": 0.42,
+  "E_U_y": 0.4199999999999999,
+  "E_AIPW": 0.4199999999999999,
+  "AIPW_abs_error_vs_theta_star": 1.1102230246251565e-16,
+  "max_conditional_AIPW_abs_error_vs_U_y": 0.0,
+  "E_bad_unweighted": 0.4173999999999999,
+  "bad_unweighted_abs_bias_vs_theta_star": 0.0026000000000001022,
+  "result": "AIPW matches theta* exactly to floating-point precision; the omitted-IPW control is biased under non-uniform sampling.",
+  "conditional_rows": [
+    {
+      "y": [
+        0,
+        0,
+        0
+      ],
+      "P_y": 0.3429999999999999,
+      "U_y": 0.0,
+      "E_xi_AIPW": 0.0,
+      "E_xi_bad_unweighted": 0.318
+    },
+    {
+      "y": [
+        0,
+        0,
+        1
+      ],
+      "P_y": 0.14699999999999996,
+      "U_y": 0.6666666666666666,
+      "E_xi_AIPW": 0.6666666666666666,
+      "E_xi_bad_unweighted": 0.518
+    },
+    {
+      "y": [
+        0,
+        1,
+        0
+      ],
+      "P_y": 0.14699999999999996,
+      "U_y": 0.6666666666666666,
+      "E_xi_AIPW": 0.6666666666666666,
+      "E_xi_bad_unweighted": 0.5013333333333333
+    },
+    {
+      "y": [
+        0,
+        1,
+        1
+      ],
+      "P_y": 0.063,
+      "U_y": 0.6666666666666666,
+      "E_xi_AIPW": 0.6666666666666666,
+      "E_xi_bad_unweighted": 0.408
+    },
+    {
+      "y": [
+        1,
+        0,
+        0
+      ],
+      "P_y": 0.14699999999999996,
+      "U_y": 0.6666666666666666,
+      "E_xi_AIPW": 0.6666666666666666,
+      "E_xi_bad_unweighted": 0.408
+    },
+    {
+      "y": [
+        1,
+        0,
+        1
+      ],
+      "P_y": 0.063,
+      "U_y": 0.6666666666666666,
+      "E_xi_AIPW": 0.6666666666666666,
+      "E_xi_bad_unweighted": 0.5013333333333333
+    },
+    {
+      "y": [
+        1,
+        1,
+        0
+      ],
+      "P_y": 0.063,
+      "U_y": 0.6666666666666666,
+      "E_xi_AIPW": 0.6666666666666666,
+      "E_xi_bad_unweighted": 0.518
+    },
+    {
+      "y": [
+        1,
+        1,
+        1
+      ],
+      "P_y": 0.026999999999999996,
+      "U_y": 0.0,
+      "E_xi_AIPW": 0.0,
+      "E_xi_bad_unweighted": 0.318
+    }
+  ]
+}

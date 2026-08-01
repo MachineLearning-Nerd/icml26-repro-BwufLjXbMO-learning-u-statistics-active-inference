@@ -1,0 +1,7 @@
+{
+  "theta_star": 0.42,
+  "E_AIPW": 0.4199999999999999,
+  "AIPW_abs_error_vs_theta_star": 1.1102230246251565e-16,
+  "E_bad_unweighted": 0.4173999999999999,
+  "bad_unweighted_abs_bias_vs_theta_star": 0.0026000000000001022
+}
