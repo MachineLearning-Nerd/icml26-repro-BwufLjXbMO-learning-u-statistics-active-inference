@@ -1,0 +1,37 @@
+{
+  "claim": 5,
+  "attempt": 1,
+  "outcome": "inconclusive",
+  "scope": "source/protocol/data availability audit only; no VitalDB proxy or numerical reproduction was run",
+  "source_checks": {
+    "cohort": true,
+    "event_and_window": true,
+    "outcome": true,
+    "models": true,
+    "budget_comparator": true,
+    "trials": true,
+    "perioperative_labels": true
+  },
+  "source_tex_sha256": "978d4ffb184ac7188fbf0624f42275317abbcaa9e245a17a837a40c595df3a43",
+  "retrieval_manifest_sha256": "98ab7564dbc8b07a1061551f4a4f7060c927b13b56ecc883af207264840a246b",
+  "retrieved_endpoints": [
+    "200\thttps://vitaldb.net/dataset/\tevidence/claim5_attempt1/response_1",
+    "200\thttps://vitaldb.net/dataset/?query=hemoglobin\tevidence/claim5_attempt1/response_2",
+    "200\thttps://api.vitaldb.net/cases\tevidence/claim5_attempt1/response_3",
+    "200\thttps://api.vitaldb.net/labs\tevidence/claim5_attempt1/response_4",
+    "200\thttps://api.vitaldb.net/trks\tevidence/claim5_attempt1/response_5",
+    "404\thttps://raw.githubusercontent.com/vitaldb/vitalutils/master/python/vitaldb-py/README.md\tevidence/claim5_attempt1/response_6",
+    "200\thttps://github.com/vitaldb/vitalutils\tevidence/claim5_attempt1/response_7",
+    "200\thttps://arxiv.org/abs/2605.11638\tevidence/claim5_attempt1/response_8"
+  ],
+  "public_data_license_observation": "Retrieved VitalDB data-use agreement states CC BY-NC-SA 4.0, subject to its terms.",
+  "source_faithful_rerun_possible": false,
+  "blockers": [
+    "No author executable repository or experiment runner is present in the pinned arXiv source.",
+    "No accepted VitalDB snapshot/version, download manifest, or selected case identifiers are specified.",
+    "No case-level covariate schema/preprocessing or XGBoost hyperparameters are released.",
+    "No active-sampling initial query set, budget-to-label mapping, sampling random seeds, or 3000 trial outputs are released.",
+    "VitalDB dataset access is governed by the retrieved data-use agreement; this audit did not obtain or redistribute clinical data."
+  ],
+  "next_action": "claim_5_attempt_2_search_official VitalDB version history and author supplement/code for the omitted protocol artifacts"
+}

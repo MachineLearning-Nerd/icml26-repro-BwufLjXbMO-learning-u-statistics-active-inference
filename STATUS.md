@@ -14,6 +14,7 @@
 - Claim 2: verified as a scoped finite Hoeffding-projection sampling audit; `sqrt(s)` has objective 0.6288614429 versus 0.6565200975 for the raw-residual control. This is not a general asymptotic proof or clipping-boundary test.
 - Claim 3: verified as a scoped finite CRN-coupling audit. With H2-sized policy error, scaled RMS differences decrease from 0.25454 to 0.12384; fixed-error H2 control stays near 0.95. This is not a general CLT/coverage proof.
 - Claim 4: falsified for literal comparator attribution. The source assigns roughly 60% saving to the distinct classical IPW estimator, while the live claim assigns it to uniform AIPW; this is not represented as an ACS numerical rerun. See `outputs/claim4_falsification_audit.md`.
-- Claim 5–6: unverified
-- Next action: Claim 5 Attempt 1 — VitalDB source/protocol availability audit.
+- Claim 5: inconclusive availability/protocol audit. VitalDB documentation/API is reachable, but no accepted snapshot/cohort extraction, preprocessing, XGBoost configuration, active-sampling seeds, or trial outputs are released; no proxy run was used.
+- Claim 6: unverified
+- Next action: Claim 5 Attempt 2 — search official VitalDB history and author supplement/code for exact protocol artifacts.
 - Publication status: not started

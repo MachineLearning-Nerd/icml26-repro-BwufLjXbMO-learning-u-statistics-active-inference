@@ -1,0 +1,8 @@
+200	https://vitaldb.net/dataset/	evidence/claim5_attempt1/response_1
+200	https://vitaldb.net/dataset/?query=hemoglobin	evidence/claim5_attempt1/response_2
+200	https://api.vitaldb.net/cases	evidence/claim5_attempt1/response_3
+200	https://api.vitaldb.net/labs	evidence/claim5_attempt1/response_4
+200	https://api.vitaldb.net/trks	evidence/claim5_attempt1/response_5
+404	https://raw.githubusercontent.com/vitaldb/vitalutils/master/python/vitaldb-py/README.md	evidence/claim5_attempt1/response_6
+200	https://github.com/vitaldb/vitalutils	evidence/claim5_attempt1/response_7
+200	https://arxiv.org/abs/2605.11638	evidence/claim5_attempt1/response_8

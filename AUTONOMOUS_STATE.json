@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "openreview_id": "BwufLjXbMO",
-  "phase": "claim_4_falsification_complete",
-  "next_action": "claim_5_attempt_1_vitaldb_source_protocol_audit",
+  "phase": "claim_5_attempt_1_inconclusive",
+  "next_action": "claim_5_attempt_2_search_official_vitaldb_history_and_author_supplement_for_exact_protocol",
   "active_run_ids": [],
   "completed_milestones": [
     "live_duplicate_gate",
@@ -15,7 +15,8 @@
     "claim_4_attempt_1_acs_source_protocol_availability_audit",
     "claim_4_attempt_2_authoritative_material_and_acs_provenance_audit",
     "claim_4_attempt_3_primary_acs_archive_protocol_audit",
-    "claim_4_falsification_literal_uniform_comparator_audit"
+    "claim_4_falsification_literal_uniform_comparator_audit",
+    "claim_5_attempt_1_vitaldb_source_protocol_availability_audit"
   ],
   "failed_attempts": [
     {
@@ -41,6 +42,12 @@
       "attempt": "falsification",
       "outcome": "falsified",
       "reason": "Pinned ACS source attributes roughly 60% budget reduction to the distinct classical IPW estimator, while the live claim assigns it to uniform AIPW; no ACS rerun is asserted."
+    },
+    {
+      "claim": "5",
+      "attempt": "1",
+      "outcome": "inconclusive",
+      "reason": "VitalDB documentation/API and a CC BY-NC-SA data-use agreement are reachable, but the pinned source releases no accepted snapshot/cohort extraction, preprocessing, XGBoost configuration, active-sampling seeds, or 3000-trial outputs; no proxy run was used."
     }
   ],
   "claim_attempt_counts": {
@@ -48,11 +55,11 @@
     "2": 1,
     "3": 1,
     "4": 3,
-    "5": 0,
+    "5": 1,
     "6": 0
   },
-  "last_checkpoint": "2026-08-01T05:41:44Z",
-  "last_known_git_commit": "16d1025effd41ba1111be7cc2a3ef4cb1237a9fb",
+  "last_checkpoint": "2026-08-01T05:37:12Z",
+  "last_known_git_commit": "PENDING_COMMIT",
   "publication_allowed": false,
   "selection_rationale": "Six live claims; source archive is public and contains formulas/figures; theoretical Claims 1-3 admit CPU clean-room audits. Claims 4-6 require separate public-data/protocol availability checks before empirical work.",
   "github_repository": "https://github.com/MachineLearning-Nerd/icml26-repro-BwufLjXbMO-learning-u-statistics-active-inference",
