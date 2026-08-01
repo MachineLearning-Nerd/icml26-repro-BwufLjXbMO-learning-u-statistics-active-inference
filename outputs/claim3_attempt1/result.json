@@ -1,0 +1,106 @@
+{
+  "adaptive_rms_decreases": true,
+  "control_rms_not_small_at_largest_n": true,
+  "fixed_error_h2_violation_negative_control": [
+    {
+      "delta_sup": 0.1,
+      "mean_crn_mismatch_rate": 0.09958399999999999,
+      "mean_sqrt_n_difference": 0.022267874901925045,
+      "n": 200,
+      "pi_hat_range": [
+        0.24999999999999997,
+        0.75
+      ],
+      "pi_star_range": [
+        0.35,
+        0.65
+      ],
+      "rms_sqrt_n_difference": 0.9544773853479012
+    },
+    {
+      "delta_sup": 0.1,
+      "mean_crn_mismatch_rate": 0.100092,
+      "mean_sqrt_n_difference": 0.005821398444860148,
+      "n": 800,
+      "pi_hat_range": [
+        0.24999999999999997,
+        0.75
+      ],
+      "pi_star_range": [
+        0.35,
+        0.65
+      ],
+      "rms_sqrt_n_difference": 0.9334122253556558
+    },
+    {
+      "delta_sup": 0.1,
+      "mean_crn_mismatch_rate": 0.10019349999999999,
+      "mean_sqrt_n_difference": -0.027933598400646006,
+      "n": 3200,
+      "pi_hat_range": [
+        0.24999999999999997,
+        0.75
+      ],
+      "pi_star_range": [
+        0.35,
+        0.65
+      ],
+      "rms_sqrt_n_difference": 0.9484636165648728
+    }
+  ],
+  "functional": "T_n(pi)=n^-1 sum omega_i xi_i(pi)/pi_i(pi)",
+  "h2_satisfying_crn_results": [
+    {
+      "delta_sup": 0.007071067811865475,
+      "mean_crn_mismatch_rate": 0.0070019999999999995,
+      "mean_sqrt_n_difference": -0.005132728500632442,
+      "n": 200,
+      "pi_hat_range": [
+        0.3429289321881345,
+        0.6570710678118655
+      ],
+      "pi_star_range": [
+        0.35,
+        0.65
+      ],
+      "rms_sqrt_n_difference": 0.2545397952194982
+    },
+    {
+      "delta_sup": 0.0035355339059327377,
+      "mean_crn_mismatch_rate": 0.0035204999999999998,
+      "mean_sqrt_n_difference": 0.005560747265050195,
+      "n": 800,
+      "pi_hat_range": [
+        0.3464644660940672,
+        0.6535355339059328
+      ],
+      "pi_star_range": [
+        0.35,
+        0.65
+      ],
+      "rms_sqrt_n_difference": 0.17605913144833554
+    },
+    {
+      "delta_sup": 0.0017677669529663688,
+      "mean_crn_mismatch_rate": 0.0017581250000000001,
+      "mean_sqrt_n_difference": -0.002225048982018004,
+      "n": 3200,
+      "pi_hat_range": [
+        0.3482322330470336,
+        0.6517677669529663
+      ],
+      "pi_star_range": [
+        0.35,
+        0.65
+      ],
+      "rms_sqrt_n_difference": 0.12383795357786946
+    }
+  ],
+  "replicates": 2500,
+  "seed": 20260801,
+  "source_scope": {
+    "crn": "same uniforms define xi_hat and xi_star",
+    "source_conditions": "H1 positivity and H2 sup-norm O_p(n^-1/2) learned-policy consistency",
+    "theorem": "Theorem 2.4 / Appendix Lemma HT-plugin-correct"
+  }
+}
