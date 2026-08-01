@@ -1,0 +1,16 @@
+{
+  "audit_type": "literal_live_claim_source_protocol_scope",
+  "live_claim_scope": "Active Wilcoxon signed-rank test on VitalDB hemoglobin shifts needs approximately 20% less budget than classical for equivalent precision.",
+  "next_action": "claim_6_attempt_1_political_bias_source_protocol_audit",
+  "reason": "The accepted source explicitly states comparable precision with about 20% fewer labels than the classical baseline in the VitalDB section. No literal source/protocol contradiction was found. The missing released snapshot, preprocessing, XGBoost configuration, seeds, and trial outputs still prevent independent numerical verification.",
+  "source_facts": {
+    "contradictory_20_percent_uniform_statement_present": false,
+    "exact_20_percent_classical_statement_present": true,
+    "hemoglobin_pairing_protocol_present": true,
+    "near_nominal_coverage_statement_present": true,
+    "vitaldb_heading_present": true,
+    "wilcoxon_target_present": true
+  },
+  "source_faithful_vitaldb_rerun_executed": false,
+  "verdict": "inconclusive_literal_source_supports_claim"
+}

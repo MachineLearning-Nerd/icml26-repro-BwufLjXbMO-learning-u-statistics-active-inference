@@ -14,7 +14,7 @@
 - Claim 2: verified as a scoped finite Hoeffding-projection sampling audit; `sqrt(s)` has objective 0.6288614429 versus 0.6565200975 for the raw-residual control. This is not a general asymptotic proof or clipping-boundary test.
 - Claim 3: verified as a scoped finite CRN-coupling audit. With H2-sized policy error, scaled RMS differences decrease from 0.25454 to 0.12384; fixed-error H2 control stays near 0.95. This is not a general CLT/coverage proof.
 - Claim 4: falsified for literal comparator attribution. The source assigns roughly 60% saving to the distinct classical IPW estimator, while the live claim assigns it to uniform AIPW; this is not represented as an ACS numerical rerun. See `outputs/claim4_falsification_audit.md`.
-- Claim 5: Attempts 1–3 are inconclusive. Attempt 3 audited the accepted arXiv source package: it contains the VitalDB narrative and Figure 2 asset but no executable, data snapshot, case manifest, preprocessing, XGBoost configuration, seed, or 3,000-trial output. No proxy clinical evaluation was run.
+- Claim 5: Attempts 1–3 plus the required literal-source falsification attempt are inconclusive; accepted source supports the 20%-versus-classical statement, while unreleased artifacts prevent a numerical rerun. Attempt 3 audited the accepted arXiv source package: it contains the VitalDB narrative and Figure 2 asset but no executable, data snapshot, case manifest, preprocessing, XGBoost configuration, seed, or 3,000-trial output. No proxy clinical evaluation was run.
 - Claim 6: unverified
-- Next action: Claim 5 falsification attempt — audit literal source/protocol scope without a proxy VitalDB experiment.
+- Next action: Claim 6 Attempt 1 — political-bias source/protocol audit.
 - Publication status: not started
