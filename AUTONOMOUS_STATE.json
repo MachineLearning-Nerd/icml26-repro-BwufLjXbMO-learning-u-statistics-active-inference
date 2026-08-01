@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "openreview_id": "BwufLjXbMO",
-  "phase": "claim_4_attempt_1_inconclusive_source_artifact_scope",
-  "next_action": "claim_4_attempt_2_search_authoritative_author_supplement_and_acs_provenance",
+  "phase": "claim_4_attempt_2_inconclusive_authoritative_provenance",
+  "next_action": "claim_4_attempt_3_independent_acs_primary_provenance_and_protocol_recovery_audit",
   "active_run_ids": [],
   "completed_milestones": [
     "live_duplicate_gate",
@@ -12,7 +12,8 @@
     "claim_1_attempt_1_finite_aipw_enumeration",
     "claim_2_attempt_1_optimal_sampling_rule_audit",
     "claim_3_attempt_1_crn_coupling_finite_cpu_audit",
-    "claim_4_attempt_1_acs_source_protocol_availability_audit"
+    "claim_4_attempt_1_acs_source_protocol_availability_audit",
+    "claim_4_attempt_2_authoritative_material_and_acs_provenance_audit"
   ],
   "failed_attempts": [
     {
@@ -20,17 +21,23 @@
       "attempt": "1",
       "outcome": "inconclusive",
       "reason": "Pinned arXiv release specifies high-level ACS/Gini/XGBoost/budgets/trials but contains no executable code, ACS snapshot/version, preprocessing/split, hyperparameters/seeds, or trial outputs; no proxy was run."
+    },
+    {
+      "claim": "4",
+      "attempt": "2",
+      "outcome": "inconclusive",
+      "reason": "Public arXiv/OpenReview records and GitHub exact-title/AIPW repository searches yielded no author executable, supplement, ACS snapshot/extraction, paper-era split/hyperparameters/seeds, or trial outputs. The source assigns the roughly 60% saving to classical, not uniform."
     }
   ],
   "claim_attempt_counts": {
     "1": 1,
     "2": 1,
     "3": 1,
-    "4": 1,
+    "4": 2,
     "5": 0,
     "6": 0
   },
-  "last_checkpoint": "2026-08-01T05:25:06.659534+00:00",
+  "last_checkpoint": "2026-08-01T05:28:29.815943+00:00",
   "last_known_git_commit": "16d1025effd41ba1111be7cc2a3ef4cb1237a9fb",
   "publication_allowed": false,
   "selection_rationale": "Six live claims; source archive is public and contains formulas/figures; theoretical Claims 1-3 admit CPU clean-room audits. Claims 4-6 require separate public-data/protocol availability checks before empirical work.",
@@ -56,8 +63,8 @@
   },
   "claim_4_outcome": {
     "verdict": "inconclusive_source_artifact_scope",
-    "scope": "source/protocol availability audit; no ACS experiment executed",
-    "evidence": "outputs/claim4_attempt1_audit.md",
-    "note": "paper attributes roughly 60% saving to classical, whereas live wording says uniform"
+    "scope": "two authoritative availability/provenance audits; no ACS experiment executed",
+    "evidence": "outputs/claim4_attempt2_audit.md",
+    "note": "source explicitly assigns approximately 60% saving to classical; live wording changes comparator to uniform"
   }
 }

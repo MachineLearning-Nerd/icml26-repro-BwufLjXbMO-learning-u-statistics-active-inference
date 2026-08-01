@@ -1,0 +1,28 @@
+{
+  "arxiv_page_has_direct_github_link": false,
+  "audit_type": "authoritative_material_and_primary_provenance_availability_only",
+  "github_aipw_u_statistic_repository_count": 0,
+  "github_exact_title_repository_count": 0,
+  "openreview_api_accessible_without_auth": false,
+  "openreview_page_has_direct_github_link": false,
+  "reason": "The retained arXiv/OpenReview records and public GitHub repository searches provide no author executable or supplementary experimental artifact. The source explicitly attributes its roughly 60% saving to the classical baseline, not uniform. Without the ACS version/extraction, paper-era split/hyperparameters/seeds, and trial outputs, a CPU ACS run would be a proxy and cannot resolve the live uniform-comparison claim.",
+  "required_source_faithful_artifacts_still_unavailable": {
+    "ACS snapshot/version and exact extraction": true,
+    "active/classical/uniform runner and 3000-trial outputs": true,
+    "paper-era preprocessing, split, XGBoost parameters, and seeds": true
+  },
+  "retrieval_statuses": [
+    "403\thttps://api2.openreview.net/notes?forum=BwufLjXbMO\tresponse_1",
+    "200\thttps://openreview.net/forum?id=BwufLjXbMO\tresponse_2",
+    "200\thttps://arxiv.org/abs/2605.11638v1\tresponse_3",
+    "200\thttps://api.github.com/search/repositories?q=%22Learning+U-Statistics+with+Active+Inference%22\tresponse_4",
+    "200\thttps://api.github.com/search/repositories?q=%22AIPW+U-statistic%22\tresponse_5"
+  ],
+  "source_comparison": {
+    "60_percent_is_explicitly_relative_to_classical": true,
+    "figure_compares_classical_and_uniform": true,
+    "near_nominal_coverage_reported": true
+  },
+  "source_faithful_cpu_run_executed": false,
+  "verdict": "inconclusive_source_artifact_scope"
+}

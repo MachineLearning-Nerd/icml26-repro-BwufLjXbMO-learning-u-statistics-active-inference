@@ -1,0 +1,5 @@
+403	https://api2.openreview.net/notes?forum=BwufLjXbMO	response_1
+200	https://openreview.net/forum?id=BwufLjXbMO	response_2
+200	https://arxiv.org/abs/2605.11638v1	response_3
+200	https://api.github.com/search/repositories?q=%22Learning+U-Statistics+with+Active+Inference%22	response_4
+200	https://api.github.com/search/repositories?q=%22AIPW+U-statistic%22	response_5
