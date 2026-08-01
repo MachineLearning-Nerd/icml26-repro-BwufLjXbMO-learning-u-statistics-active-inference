@@ -1,0 +1,50 @@
+{
+  "claim": 6,
+  "attempt": 1,
+  "outcome": "inconclusive",
+  "scope": "accepted-source protocol/comparator audit only; no political-bias numerical rerun",
+  "source_tex_sha256": "978d4ffb184ac7188fbf0624f42275317abbcaa9e245a17a837a40c595df3a43",
+  "source_readme_sha256": "bb58a2436da0e2a932322bcc500bfaf08f0c70a1b0ef154f6078929b85421842",
+  "source_archive_sha256": "b869beb747d8c50c12dfbe3c13a2420f58334814a6d80bbac9748ae19b73ef9a",
+  "source_asset_inventory_sha256": "8dfed215ddb5bda200356bb2be2f82bfac438db7002539f93a05345a0ec67309",
+  "source_file_count": 14,
+  "figure_assets": [
+    "Figure/combined_U_estimator.pdf",
+    "Figure/combined_gini.pdf",
+    "Figure/combined_kendall.pdf",
+    "Figure/combined_saving.pdf",
+    "Figure/combined_simulation.pdf",
+    "Figure/combined_wilcoxon.pdf",
+    "Figure/simulation_mse_vs_budget.pdf"
+  ],
+  "executable_or_data_assets": [],
+  "source_facts": {
+    "political_bias_task": true,
+    "kendall_target": true,
+    "ordinal_agreement_kernel": true,
+    "gpt35_predictor": true,
+    "gpt4_uncertainty": true,
+    "classical_twenty_percent": true,
+    "uniform_ten_percent": true,
+    "three_thousand_trials": true,
+    "figure_asset": true
+  },
+  "source_lines": {
+    "task_and_figure": 762,
+    "kendall_target": 785,
+    "reported_savings": 799,
+    "trial_protocol": 1421
+  },
+  "negative_control": {
+    "name": "swapped_classical_uniform_comparator",
+    "swapped_source_wording_supported": false,
+    "interpretation": "The source supports 20% versus classical and 10% versus uniform; it does not support swapping those comparator-specific numbers."
+  },
+  "source_faithful_rerun_possible": false,
+  "blockers": [
+    "The accepted source package contains no political-bias article records, ground-truth labels, GPT-3.5 proxy labels, GPT-4 uncertainty outputs, split, or paper-era data snapshot.",
+    "The source reports 3,000 trials but releases no estimator implementation, sampling/configuration details, seeds, budget-to-precision interpolation, or trial outputs.",
+    "The published Kendall figure is an output asset, not executable evidence sufficient to regenerate the claimed budget savings."
+  ],
+  "next_action": "claim_6_attempt_2_authoritative_dataset_and_author_release_search"
+}
