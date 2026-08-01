@@ -1,0 +1,65 @@
+{
+  "source": {
+    "paper": "Learning U-Statistics with Active Inference",
+    "arxiv_id": "2605.11638",
+    "source_archive_url": "https://arxiv.org/e-print/2605.11638",
+    "source_archive_sha256": "b869beb747d8c50c12dfbe3c13a2420f58334814a6d80bbac9748ae19b73ef9a",
+    "license_note": "Unmodified figures extracted from the authors arXiv source archive for reproduction-logbook attribution."
+  },
+  "figures": [
+    {
+      "asset_id": "paper-u-estimator",
+      "file": "assets/paper_figures/combined_U_estimator.png",
+      "from_paper": true,
+      "page": "arXiv source Figure combined_U_estimator.pdf",
+      "bbox": [
+        0,
+        0,
+        1870,
+        691
+      ],
+      "dpi": 220,
+      "sha256": "23e18100b5b6928c4269cf6e1d713957177d0be495cd4482e87cd76e682ffed7",
+      "natural_px": [
+        1870,
+        691
+      ]
+    },
+    {
+      "asset_id": "paper-gini",
+      "file": "assets/paper_figures/combined_gini.png",
+      "from_paper": true,
+      "page": "arXiv source Figure combined_gini.pdf",
+      "bbox": [
+        0,
+        0,
+        4432,
+        974
+      ],
+      "dpi": 220,
+      "sha256": "8a4071245475848dab9dc30d79ae14457315780e710486737f1f592c635a9c48",
+      "natural_px": [
+        4432,
+        974
+      ]
+    },
+    {
+      "asset_id": "paper-saving",
+      "file": "assets/paper_figures/combined_saving.png",
+      "from_paper": true,
+      "page": "arXiv source Figure combined_saving.pdf",
+      "bbox": [
+        0,
+        0,
+        2990,
+        600
+      ],
+      "dpi": 220,
+      "sha256": "120230d022bafb75b1077ce4630218b661fab5f2532348e24e39421f7e8c1846",
+      "natural_px": [
+        2990,
+        600
+      ]
+    }
+  ]
+}

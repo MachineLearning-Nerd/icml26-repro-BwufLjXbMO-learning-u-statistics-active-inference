@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "skill": "posterly",
+  "timestamp": "2026-08-01T06:09:01Z",
+  "poster_html": "/home/dineshai/Drives/Code/AllCode/ReproduceICML/papers/icml26-repro-BwufLjXbMO-learning-u-statistics-active-inference/logbook/poster.html",
+  "canvas": {
+    "source": "page-rule",
+    "width_cm": 60.96,
+    "height_cm": 76.2,
+    "orientation": "portrait",
+    "source_url": null
+  },
+  "overall": "PASS",
+  "hard_failures": 0,
+  "warnings": 0,
+  "gates": [
+    {
+      "name": "preflight",
+      "severity": "hard",
+      "status": "PASS",
+      "command": [
+        "/home/dineshai/Drives/Code/AllCode/ReproduceICML/papers/icml26-repro-BwufLjXbMO-learning-u-statistics-active-inference/.venv-trackio/bin/python",
+        "/tmp/posterly/tools/poster_check.py",
+        "preflight",
+        "/home/dineshai/Drives/Code/AllCode/ReproduceICML/papers/icml26-repro-BwufLjXbMO-learning-u-statistics-active-inference/logbook/poster.html"
+      ],
+      "summary": {
+        "exit_code": 0,
+        "tail": "[preflight] /home/dineshai/Drives/Code/AllCode/ReproduceICML/papers/icml26-repro-BwufLjXbMO-learning-u-statistics-active-inference/logbook/poster.html\n  problems: 0   warnings: 0\n[preflight] PASS"
+      },
+      "artifacts": []
+    },
+    {
+      "name": "style",
+      "severity": "hard",
+      "status": "PASS",
+      "command": [
+        "/home/dineshai/Drives/Code/AllCode/ReproduceICML/papers/icml26-repro-BwufLjXbMO-learning-u-statistics-active-inference/.venv-trackio/bin/python",
+        "/tmp/posterly/tools/style_check.py",
+        "/home/dineshai/Drives/Code/AllCode/ReproduceICML/papers/icml26-repro-BwufLjXbMO-learning-u-statistics-active-inference/logbook/poster.html",
+        "--disable",
+        "4,5",
+        "--json",
+        "/home/dineshai/Drives/Code/AllCode/ReproduceICML/papers/icml26-repro-BwufLjXbMO-learning-u-statistics-active-inference/logbook/style_check.json"
+      ],
+      "summary": {
+        "gate": "style",
+        "status": "PASS",
+        "rules": [
+          {
+            "id": 1,
+            "severity": "hard",
+            "status": "PASS",
+            "detail": "ok"
+          },
+          {
+            "id": 2,
+            "severity": "hard",
+            "status": "PASS",
+            "detail": "ok"
+          },
+          {
+            "id": 3,
+            "severity": "hard",
+            "status": "PASS",
+            "detail": "ok"
+          },
+          {
+            "id": 4,
+            "severity": "hard",
+            "status": "SKIPPED",
+            "detail": "disabled via --disable (rule 4)"
+          },
+          {
+            "id": 5,
+            "severity": "hard",
+            "status": "SKIPPED",
+            "detail": "disabled via --disable (rule 5)"
+          },
+          {
+            "id": 6,
+            "severity": "hard",
+            "status": "PASS",
+            "detail": "ok"
+          },
+          {
+            "id": 7,
+            "severity": "hard",
+            "status": "PASS",
+            "detail": "ok"
+          },
+          {
+            "id": 8,
+            "severity": "hard",
+            "status": "PASS",
+            "detail": "ok"
+          },
+          {
+            "id": 9,
+            "severity": "warn",
+            "status": "PASS",
+            "detail": "9 --fs-* token(s) defined"
+          },
+          {
+            "id": 10,
+            "severity": "hard",
+            "status": "PASS",
+            "detail": "ok"
+          },
+          {
+            "id": 11,
+            "severity": "hard",
+            "status": "PASS",
+            "detail": "ok"
+          },
+          {
+            "id": 12,
+            "severity": "warn",
+            "status": "PASS",
+            "detail": "dark area = 0.0% of poster (<= 8%)"
+          },
+          {
+            "id": 13,
+            "severity": "hard",
+            "status": "PASS",
+            "detail": "ok"
+          }
+        ]
+      },
+      "artifacts": [
+        "/home/dineshai/Drives/Code/AllCode/ReproduceICML/papers/icml26-repro-BwufLjXbMO-learning-u-statistics-active-inference/logbook/style_check.json"
+      ]
+    },
+    {
+      "name": "asset",
+      "severity": "hard",
+      "status": "PASS",
+      "command": [
+        "/home/dineshai/Drives/Code/AllCode/ReproduceICML/papers/icml26-repro-BwufLjXbMO-learning-u-statistics-active-inference/.venv-trackio/bin/python",
+        "/tmp/posterly/tools/asset_check.py",
+        "/home/dineshai/Drives/Code/AllCode/ReproduceICML/papers/icml26-repro-BwufLjXbMO-learning-u-statistics-active-inference/logbook/poster.html",
+        "--manifest",
+        "/home/dineshai/Drives/Code/AllCode/ReproduceICML/papers/icml26-repro-BwufLjXbMO-learning-u-statistics-active-inference/logbook/FIGURE_MANIFEST.json",
+        "--json",
+        "/home/dineshai/Drives/Code/AllCode/ReproduceICML/papers/icml26-repro-BwufLjXbMO-learning-u-statistics-active-inference/logbook/asset_check.json"
+      ],
+      "summary": {
+        "gate": "asset",
+        "status": "PASS",
+        "checks": [
+          {
+            "id": "paper_fig_count",
+            "severity": "hard",
+            "status": "PASS",
+            "detail": "3 img[data-source=paper] (>= 2 required)"
+          },
+          {
+            "id": "asset_provenance",
+            "severity": "hard",
+            "status": "PASS",
+            "detail": "asset paper-u-estimator: resolves, from_paper, fields complete, file exists, sha256 matches."
+          },
+          {
+            "id": "asset_provenance",
+            "severity": "hard",
+            "status": "PASS",
+            "detail": "asset paper-gini: resolves, from_paper, fields complete, file exists, sha256 matches."
+          },
+          {
+            "id": "asset_provenance",
+            "severity": "hard",
+            "status": "PASS",
+            "detail": "asset paper-saving: resolves, from_paper, fields complete, file exists, sha256 matches."
+          },
+          {
+            "id": "fig_area",
+            "severity": "hard",
+            "status": "PASS",
+            "detail": "asset paper-u-estimator: 2.99% of poster (>= 1.50%)."
+          },
+          {
+            "id": "fig_resolution",
+            "severity": "hard",
+            "status": "PASS",
+            "detail": "asset paper-u-estimator: natural 1870x691 = 2.53x rendered (728x273); >= 2.0x target."
+          },
+          {
+            "id": "fig_area",
+            "severity": "hard",
+            "status": "PASS",
+            "detail": "asset paper-gini: 1.74% of poster (>= 1.50%)."
+          },
+          {
+            "id": "fig_resolution",
+            "severity": "hard",
+            "status": "PASS",
+            "detail": "asset paper-gini: natural 4432x974 = 6.02x rendered (715x162); >= 2.0x target."
+          },
+          {
+            "id": "fig_area",
+            "severity": "hard",
+            "status": "PASS",
+            "detail": "asset paper-saving: 3.23% of poster (>= 1.50%)."
+          },
+          {
+            "id": "fig_resolution",
+            "severity": "hard",
+            "status": "PASS",
+            "detail": "asset paper-saving: natural 2990x600 = 2.86x rendered (1021x210); >= 2.0x target."
+          },
+          {
+            "id": "total_fig_area",
+            "severity": "hard",
+            "status": "PASS",
+            "detail": "total paper-image area = 13.05% of body (>= 12.00%)."
+          }
+        ]
+      },
+      "artifacts": [
+        "/home/dineshai/Drives/Code/AllCode/ReproduceICML/papers/icml26-repro-BwufLjXbMO-learning-u-statistics-active-inference/logbook/asset_check.json"
+      ]
+    },
+    {
+      "name": "measure",
+      "severity": "hard",
+      "status": "PASS",
+      "command": [
+        "/home/dineshai/Drives/Code/AllCode/ReproduceICML/papers/icml26-repro-BwufLjXbMO-learning-u-statistics-active-inference/.venv-trackio/bin/python",
+        "/tmp/posterly/tools/poster_check.py",
+        "measure",
+        "/home/dineshai/Drives/Code/AllCode/ReproduceICML/papers/icml26-repro-BwufLjXbMO-learning-u-statistics-active-inference/logbook/poster.html"
+      ],
+      "summary": {
+        "exit_code": 0,
+        "tail": "[measure] viewport = 2304 x 2880 px\n[measure] columns found: 2\n  col0    last-card-bottom =  2604.17 px\n  col1    last-card-bottom =  2604.64 px\n  spread = 0.47 px   (target < 5.0 px)\n  intercard gap in [26.45 (col0), 26.45 (col0)] px   (target [12.0, 50.0])\n  gap -> footer in [40.80, 41.27] px   (target [30.0, 50.0])\n[measure] PASS"
+      },
+      "artifacts": []
+    },
+    {
+      "name": "polish",
+      "severity": "hard",
+      "status": "PASS",
+      "command": [
+        "/home/dineshai/Drives/Code/AllCode/ReproduceICML/papers/icml26-repro-BwufLjXbMO-learning-u-statistics-active-inference/.venv-trackio/bin/python",
+        "/tmp/posterly/tools/poster_check.py",
+        "polish",
+        "/home/dineshai/Drives/Code/AllCode/ReproduceICML/papers/icml26-repro-BwufLjXbMO-learning-u-statistics-active-inference/logbook/poster.html",
+        "--max-card-trailing",
+        "0.15",
+        "--strict"
+      ],
+      "summary": {
+        "exit_code": 0,
+        "tail": "  cards checked       : 8\n  inner-void cards    : 8\n  beside-text floats  : 0\n  flex/<br> parents   : 0\n  header logos        : 0\n  banner images       : 0\n  warnings            : 0\n[polish] PASS"
+      },
+      "artifacts": []
+    }
+  ]
+}

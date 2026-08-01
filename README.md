@@ -7,7 +7,7 @@ This repository is a CPU-only, evidence-driven reproduction of the live ICML cha
 
 ## Current status
 
-Source pinned and Claim 1 setup is in progress. No claim result is asserted yet.
+All six live claims now have durable outcomes: Claims 1–3 are scoped finite mechanism verifications, Claim 4 is a literal comparator-attribution falsification, and Claims 5–6 are inconclusive because the source-faithful empirical artifacts were not released. The local Trackio logbook, poster gates, tests, and official validator are ready for independent review; publication has not started.
 
 ## Reproduce setup
 

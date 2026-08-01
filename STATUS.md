@@ -9,12 +9,12 @@
 - Official code: no author executable repository identified in the retained arXiv source; clean-room audit required
 - Compute policy: Hugging Face `cpu-upgrade` only; no GPU or paid Jobs
 - GitHub repository: https://github.com/MachineLearning-Nerd/icml26-repro-BwufLjXbMO-learning-u-statistics-active-inference
-- Current phase: all_claim_outcomes_complete_logbook_pending
+- Current phase: logbook_ready_for_independent_review
 - Claim 1: verified as a finite scoped AIPW algebra audit; exact enumeration gives absolute error 1.11e-16 and the omitted-IPW control is biased.
 - Claim 2: verified as a scoped finite Hoeffding-projection sampling audit; `sqrt(s)` has objective 0.6288614429 versus 0.6565200975 for the raw-residual control. This is not a general asymptotic proof or clipping-boundary test.
 - Claim 3: verified as a scoped finite CRN-coupling audit. With H2-sized policy error, scaled RMS differences decrease from 0.25454 to 0.12384; fixed-error H2 control stays near 0.95. This is not a general CLT/coverage proof.
 - Claim 4: falsified for literal comparator attribution. The source assigns roughly 60% saving to the distinct classical IPW estimator, while the live claim assigns it to uniform AIPW; this is not represented as an ACS numerical rerun. See `outputs/claim4_falsification_audit.md`.
 - Claim 5: Attempts 1–3 plus the required literal-source falsification attempt are inconclusive; accepted source supports the 20%-versus-classical statement, while unreleased artifacts prevent a numerical rerun. Attempt 3 audited the accepted arXiv source package: it contains the VitalDB narrative and Figure 2 asset but no executable, data snapshot, case manifest, preprocessing, XGBoost configuration, seed, or 3,000-trial output. No proxy clinical evaluation was run.
 - Claim 6: Attempts 1–3 and the required literal-source falsification attempt are inconclusive. The pinned source matches the live political-bias/Kendall 20%-versus-classical and 10%-versus-uniform wording; unreleased numerical assets prevent independent reproduction and were not treated as refutation. See `outputs/claim6_falsification_result.json`.
-- Next action: assemble the fixed-order logbook and run independent review.
-- Publication status: not started
+- Next action: independent scientific and challenge-compliance review; publish only after both pass.
+- Publication status: not started; local logbook/strict-poster/test/official-validator gates pass.
