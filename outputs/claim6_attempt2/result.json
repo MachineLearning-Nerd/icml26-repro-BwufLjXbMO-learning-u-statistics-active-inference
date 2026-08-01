@@ -1,0 +1,33 @@
+{
+  "claim": 6,
+  "attempt": 2,
+  "outcome": "inconclusive",
+  "scope": "authoritative GitHub/related-release availability audit; no proxy political-bias run",
+  "evidence_hashes": {
+    "response_1": "08c082fdf7ca87ba911a2aabb0f0cf2d3e482a6feeaac9713e4578c20b2600b2",
+    "response_3": "172cb3b90bb39496b03b90fffe9fdb078508e16254460dc72be6177e42f990df",
+    "response_10.json": "ca3da853972980a5c371c60a48c9bf6cd9ae541e43d0a5f6512ba335a59ca3a7",
+    "response_14.json": "ee194929694b2f3735a6450924a8b16e4cabd9e6a52c0d511cc8ad49373a6fbe",
+    "response_20.json": "3b123b1c95ee4dcd754e32c428acd4a597502b1a88b8d86f245a1058d65bdab7",
+    "retrieval.tsv": "92cdbbd40aa52211bc4c1693379cb4dcb2f1c21f53f02a32d7bb2915c9090fa7"
+  },
+  "prior_work_tree_sha256": "fa1228ce045f75d51bf9ee1ac91d4c67cc55e6e27c5a239c2705118650a89248",
+  "facts": {
+    "selected_title_repository_count": 0,
+    "prior_work_repository": "lphLeo/Robust-Active-Statistical-Inference",
+    "prior_work_search_count": 1,
+    "prior_work_has_bias_notebook": true,
+    "prior_work_has_bias_data": false,
+    "prior_notebook_expects_untracked_bias_csv": true,
+    "prior_notebook_uses_gpt4o": true,
+    "prior_notebook_uses_selected_gpt35": false,
+    "prior_repo_has_selected_paper_trial_outputs": false
+  },
+  "source_faithful_rerun_possible": false,
+  "blockers": [
+    "No exact-title GitHub repository for the selected paper was found in the retained GitHub API search.",
+    "The only relevant public prior-work repository is not an author release of this selected paper and uses a different GPT-4o notebook, while the selected paper specifies GPT-3.5 predictions and GPT-4 uncertainty.",
+    "That prior notebook requires an untracked data/bias_dataset.csv, and its repository tree contains no selected-paper snapshot, LLM outputs, configuration, seeds, 3,000-trial results, or generated Figure 3 data."
+  ],
+  "next_action": "claim_6_attempt_3_authoritative_archive_and_dataset_provenance_audit"
+}

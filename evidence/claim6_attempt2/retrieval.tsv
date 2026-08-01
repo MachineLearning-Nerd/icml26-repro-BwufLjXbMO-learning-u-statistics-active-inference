@@ -1,0 +1,15 @@
+1	200	https://api.github.com/search/repositories?q=%22Learning+U-Statistics+with+Active+Inference%22
+2	200	https://api.github.com/search/repositories?q=%22Can+unconfident+llm+annotations+be+used+for+confident+conclusions%22
+3	200	https://api.github.com/search/repositories?q=%22Robust+Sampling+for+Active+Statistical+Inference%22
+4	200	https://api.github.com/search/users?q=%22Xiaoning+Wang%22
+5	200	https://api.github.com/search/users?q=%22Yuyang+Huo%22
+6	200	https://api.github.com/search/users?q=%22Liuhua+Peng%22
+7	200	https://api.github.com/search/users?q=%22Changliang+Zou%22
+8	200	https://aclanthology.org/search/?q=Can+unconfident+LLM+annotations+be+used+for+confident+conclusions
+9	200	https://api.openalex.org/works?search=Can%20unconfident%20llm%20annotations%20be%20used%20for%20confident%20conclusions&per-page=3
+10	gh_api	https://api.github.com/repos/lphLeo/Robust-Active-Statistical-Inference
+12	gh_api	https://api.github.com/repos/lphLeo/Robust-Active-Statistical-Inference/contents
+14	gh_api	https://api.github.com/repos/lphLeo/Robust-Active-Statistical-Inference/git/trees/main?recursive=1
+16	gh_api	https://api.github.com/repos/lphLeo/Robust-Active-Statistical-Inference/releases
+18	gh_api	https://api.github.com/repos/lphLeo/Robust-Active-Statistical-Inference/contents/README.md
+20	gh_api	https://api.github.com/repos/lphLeo/Robust-Active-Statistical-Inference/contents/bias.ipynb
