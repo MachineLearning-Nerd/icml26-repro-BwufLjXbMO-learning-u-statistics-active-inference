@@ -1,0 +1,18 @@
+{
+  "audit_type": "literal_live_claim_comparator_scope",
+  "live_claim_comparator": "uniform sampling",
+  "next_action": "claim_5_attempt_1_vitaldb_source_protocol_audit",
+  "reason": "The pinned ACS text explicitly attributes roughly 60% budget reduction to the classical estimator. The paper separately defines uniform as a different AIPW estimator under the same uniform sampling policy and does not attach the 60% statement to it. Thus 'roughly 60% relative to uniform' is not a defensible reading of the cited source claim.",
+  "scope": "The conclusion concerns the literal source attribution of the 60% number, not whether an unreported active-vs-uniform numerical result could hold under another experiment.",
+  "source_acs_60_percent_statement": "roughly a 60\\% labeling-budget reduction relative to {classical} one",
+  "source_facts": {
+    "acs_section_mentions_uniform_baseline": true,
+    "classical_is_ipw_under_uniform_sampling": true,
+    "exact_60_percent_relative_to_classical": true,
+    "exact_60_percent_relative_to_uniform": false,
+    "methods_are_distinct_despite_same_sampling_policy": true,
+    "uniform_is_aipw_under_uniform_sampling": true
+  },
+  "source_faithful_acs_rerun_executed": false,
+  "verdict": "falsified_literal_comparator_attribution"
+}
