@@ -1,0 +1,25 @@
+{
+  "claim": 6,
+  "attempt": "falsification",
+  "outcome": "inconclusive",
+  "scope": "literal live-claim versus pinned-source comparator/quantity audit; no numerical proxy",
+  "live_claim": "On the political-bias dataset, active estimation of Kendall's \u03c4 for LLM label quality reduces the labeling budget by about 20% versus the classical baseline and about 10% versus uniform sampling (Section 4.3, Figure 3).",
+  "source_tex_sha256": "978d4ffb184ac7188fbf0624f42275317abbcaa9e245a17a837a40c595df3a43",
+  "source_lines": {
+    "political_task": 762,
+    "kendall_target": 785,
+    "literal_comparator_sentence": 796
+  },
+  "checks": {
+    "live_names_political_bias": true,
+    "live_names_kendall_tau": true,
+    "live_names_twenty_vs_classical": true,
+    "live_names_ten_vs_uniform": true,
+    "source_names_political_bias": true,
+    "source_names_kendall_tau": true,
+    "source_sentence_present": true,
+    "source_does_not_swap_comparators": true
+  },
+  "reason": "No literal source contradiction was found: the pinned source states the same political-bias/Kendall target and assigns about 20% budget saving to classical and about 10% to uniform. Missing numerical artifacts prevent independent replication but are not treated as a falsification.",
+  "next_action": "logbook_assembly_and_independent_review"
+}

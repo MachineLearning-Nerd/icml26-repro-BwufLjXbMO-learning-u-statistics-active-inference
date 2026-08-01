@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "openreview_id": "BwufLjXbMO",
-  "phase": "claim_6_attempt_3_inconclusive",
-  "next_action": "claim_6_falsification_literal_source_scope",
+  "phase": "all_claims_outcomes_complete_logbook_pending",
+  "next_action": "logbook_assembly_and_independent_review",
   "active_run_ids": [],
   "completed_milestones": [
     "live_duplicate_gate",
@@ -90,6 +90,12 @@
       "attempt": "3",
       "outcome": "inconclusive",
       "reason": "Independent archive and dataset-provenance audit confirms that the selected arXiv source documents the GPT-3.5/GPT-4, 3,000-trial protocol but releases no executable/data/configuration/trial assets; related prior-work metadata is not a selected-paper release."
+    },
+    {
+      "claim": "6",
+      "attempt": "falsification",
+      "outcome": "inconclusive",
+      "reason": "Pinned source matches the literal political-bias/Kendall 20%-versus-classical and 10%-versus-uniform wording; missing numerical assets were not treated as refutation."
     }
   ],
   "claim_attempt_counts": {
