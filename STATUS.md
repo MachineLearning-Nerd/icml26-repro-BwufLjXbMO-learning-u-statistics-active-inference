@@ -8,7 +8,7 @@
 - Source pin: arXiv source archive, SHA-256 in `evidence/SHA256SUMS`
 - Official code: no author executable repository identified in the retained arXiv source; clean-room audit required
 - Compute policy: Hugging Face `cpu-upgrade` only; no GPU or paid Jobs
-- GitHub repository: pending creation
+- GitHub repository: https://github.com/MachineLearning-Nerd/icml26-repro-BwufLjXbMO-learning-u-statistics-active-inference @ a0efe69702f15213fb20dc858507dd795f573d3a
 - Current phase: source_pinned_claim_1_setup
 - Claim states: all unverified
 - Publication status: not started
