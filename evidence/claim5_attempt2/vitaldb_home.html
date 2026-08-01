@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="VitalDB">
+    <meta name="author" content="VitalDB">
+    <meta name="keywords" content="VitalDB">
+
+    <link rel='shortcut icon' href='/static/favicon.ico' />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+    <title>VitalDB</title>
+
+        <link href="/static/css/template.min.css?v=1785562734" rel="stylesheet">
+    <link href="/static/vendor/fontawesome-5.12.1/css/fontawesome.min.css?v=1785562734" rel="stylesheet">
+    <link href="/static/vendor/fontawesome-5.12.1/css/all.min.css?v=1785562734" rel="stylesheet">
+    <link href="/static/css/home.css" rel="stylesheet">
+    <style>
+    #content {
+        padding-top:93px;
+    }
+    .container-fluid{
+        padding:0;
+    }
+    .btn,.btn-group,.card{
+        border-radius:0;
+    }
+    .div-box{
+        height:300px;
+        width:300px;
+        text-align:center;
+        color:white;
+    }
+    footer,header .breadcrumb{
+        padding-right:15px !important;
+        padding-left:15px !important;
+    }
+    .vl {
+        border-left: 1px solid #dee2e6;
+        display:inline-block;
+        height:40px;
+        margin:0 8px;
+        vertical-align:middle;
+    }
+    #main-content{
+        padding: 0 120px;
+    }
+    .download-section {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        /* justify-content: center;
+        padding: 0 20px; */
+    }
+    .download-section .dropdown {
+        margin: 0 10px;
+    }
+    i {
+        margin-right: 8px;
+    }
+
+    .download-section button {
+        margin-top: 0; /* 기본 값 */
+        width: auto;   /* 기본 값 */
+    }
+
+    @media screen and (max-width: 1386px) {
+        .download-section button {
+            margin-top: 5px;
+            width: 100%;
+        }
+    }
+
+    @media (max-width:768px){
+        #main-content{
+            padding: 0;
+            margin: 0;
+        }
+        .col-sm-3,.col-sm-6 {
+            max-width: 100vw;
+            flex: 0 0 100%;
+            word-wrap: break-word;
+            margin-bottom: .5rem;
+        }
+        .btn.btn-outline-light, .vl{
+            margin-top: .5rem;
+        }
+        h2, .display-4{
+            font-size:2rem;
+        }
+        p{
+            word-wrap: break-word;
+        }
+    }
+    </style>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129133627-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-129133627-1');
+    </script>
+</head>
+
+<body id="Home" class="d-flex flex-column">
+    <nav id="top" class="navbar navbar-expand-md navbar-dark fixed-top bg-gradient">
+    <div class="container-fluid px-0">
+        <a class="navbar-brand text-hide d-block" href="/">VitalDB</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/vital-recorder">VitalRecorder</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/web-monitoring">Web Monitoring</a>
+                </li>
+                                <li class="nav-item">
+                    <a class="nav-link" href="/dataset">Open Dataset</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/docs">Docs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/forum">Forum</a>
+                </li>
+                                <li class="nav-item">
+                    <a class="nav-link" href="/login">Login</a>
+                </li>
+                            </ul>
+        </div>
+    </div>
+</nav>
+
+<header>
+    <div class="container-fluid" style="height:43px;">
+        <div class="row">
+            <div class="col-12">
+                    <ol class="breadcrumb flex-nowrap">
+                    <li class="breadcrumb-item small text-truncate active">Home</li>
+    </ol>
+
+            </div>
+                    </div>
+    </div>
+</header>
+
+<div id="content">
+    <div class="container-fluid">
+        
+
+            <div id="intro" class="carousel slide bg-light" data-ride="carousel" data-interval="4000">
+        <ol class="carousel-indicators">
+            <li data-target="#intro" data-slide-to="0" class="active"></li>
+            <li data-target="#intro" data-slide-to="1"></li>
+            <li data-target="#intro" data-slide-to="2"></li>
+            <li data-target="#intro" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container bg-light d-flex text-center justify-content-center align-items-center" style="height:500px">
+                    <div class="align-items-center no-gutters py-1 row">
+                        <div class="counter">
+                            <h2 class="display-4">Join us!</h2>
+                            <p class="lead"><b>3,548</b> researchers are using VitalRecorders on <b>822</b> beds.<br>
+                                Web monitorings are active on <span style="font-weight:300;color:red"><b>1,112</b></span> Beds.</p>
+                            <hr class="my-4" style="max-width:50px;border-width:3px;border-color:#348ec7">
+                            <p class="lead">A total of  <span style="font-weight:300;color:#1c28ff"><b>5,446,096</b></span> cases have been recorded.</p>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container bg-light d-flex justify-content-center align-items-center" style="height:500px">
+                    <div class="align-items-center no-gutters py-1 row">
+                        <div class="col-12 col-lg-6 order-lg-2">
+                            <div class="px-4 px-lg-5"><img class="img-fluid py-2" src="/static/img/home/vitalrecorder2.png"></div>
+                        </div>
+                        <div class="col-12 col-lg-6 order-lg-1">
+                            <div class="px-0 px-lg-5 text-center text-lg-right"><h2 class="display-4">VitalRecorder</h2>
+                                <p class="lead">Free Software to Record and Analyze Vital Signs.</p>
+                                <div class="mt-4 mt-lg-5 mb-5 mb-lg-0">
+                                    <a href="/vital-recorder" class="btn btn-primary">Enter</a>
+                                    <a href="/docs" class="btn btn-outline-info">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container bg-light d-flex justify-content-center align-items-center" style="height:500px">
+                    <div class="align-items-center no-gutters py-1 row">
+                        <div class="col-12 col-lg-6 order-lg-1">
+                            <div class="px-4 px-lg-5"><img class="img-fluid py-2" src="/static/img/home/webmonitoring2.png"></div>
+                        </div>
+                        <div class="col-12 col-lg-6 order-lg-2">
+                            <div class="px-0 px-lg-5 text-center text-lg-left"><h2 class="display-4">Web Monitoring</h2>
+                                <p class="lead">Remote Monitoring of Vital Signs via Integrated Display.</p>
+                                <div class="mt-4 mt-lg-5 mb-5 mb-lg-0">
+                                    <a href="/web-monitoring" class="btn btn-primary">Enter</a>
+                                    <a href="/docs" class="btn btn-outline-info">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container bg-light d-flex justify-content-center align-items-center" style="height:500px">
+                    <div class="align-items-center no-gutters py-1 row">
+                        <div class="col-12 col-lg-6 order-lg-2">
+                            <div class="px-4 px-lg-5"><img class="img-fluid py-2" src="/static/img/home/databank.png"></div>
+                        </div>
+                        <div class="col-12 col-lg-6 order-lg-1">
+                            <div class="px-0 px-lg-5 text-center text-lg-right"><h2 class="display-4">Dataset</h2>
+                                <p class="lead">World's Largest Open Dataset of Perioperative <br> Multi-parameter Vital Signs.</p>
+                                <div class="mt-4 mt-lg-5 mb-5 mb-lg-0">
+                                    <a href="/dataset" class="btn btn-primary">Enter</a>
+                                    <a href="/docs" class="btn btn-outline-info">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#intro" role="button" data-slide="prev">
+            <i class="fas fa-2x fa-angle-left text-primary"></i>
+        </a>
+        <a class="carousel-control-next" href="#intro" role="button" data-slide="next">
+            <i class="fas fa-2x fa-angle-right text-primary"></i>
+        </a>
+    </div>
+    <div id="main-content" class="row mt-4">
+        <div class="col-sm-6">
+            <div class="card bg-primary h-100">
+                <div class="card-body text-light">
+                    <a href="/vital-recorder" style="color:white"><h5>VitalRecorder</h5></a>
+                    <p>Download latest version of VitalRecorder.<br>
+                    <br>The use of the VitalRecorder program is completely free.
+                    <br>(Downloaded <strong>181,767</strong> times since Feb 2017)</p>
+                    <div class="download-section">
+                        <span>OS:</span>
+                        <div class="dropdown">
+                            <button class="btn btn-outline-light dropdown-toggle" type="button" id="osDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="min-width:180px">
+                                <i class="fab fa-windows"></i>Windows
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="osDropdown" style="min-width:180px">
+                                <a class="dropdown-item" href="#" onclick="selectOS(this, 'msi')"><i class="fab fa-windows"></i>Windows</a>
+                                <a class="dropdown-item" href="#" onclick="selectOS(this, 'mac')">
+                                    <i class="fab fa-apple"></i>Mac
+                                    <small class="d-block text-muted" style="font-size:11px;margin-left:20px;">Apple Silicon · macOS 11+</small>
+                                </a>
+                                <a class="dropdown-item" href="#" onclick="selectOS(this, 'pivr64')"><i class="fab fa-raspberry-pi"></i>Raspberry Pi 64bit</a>
+                                <a class="dropdown-item" href="#" onclick="selectOS(this, 'vrub64')"><i class="fab fa-linux"></i>Linux (CLI)</a>
+                                <a class="dropdown-item" href="#" onclick="selectOS(this, 'appimage')"><i class="fab fa-linux"></i>Linux (GUI)</a>
+                            </div>
+                        </div>
+                        <span>Version:</span>
+                        <div class="dropdown">
+                            <button class="btn btn-outline-light dropdown-toggle" type="button" id="versionDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                1.18.52
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="versionDropdown">
+                                                                    <a class="dropdown-item ver msi" href="#" onclick="selectVersion('1.18.52')">1.18.52</a>
+                                                                    <a class="dropdown-item ver msi" href="#" onclick="selectVersion('1.18.51')">1.18.51</a>
+                                                                    <a class="dropdown-item ver msi" href="#" onclick="selectVersion('1.18.50')">1.18.50</a>
+                                                                    <a class="dropdown-item ver msi" href="#" onclick="selectVersion('1.18.49')">1.18.49</a>
+                                                                    <a class="dropdown-item ver msi" href="#" onclick="selectVersion('1.18.48')">1.18.48</a>
+                                                                                                    <a class="dropdown-item ver pivr64 d-none" href="#" onclick="selectVersion('1.18.52')">1.18.52</a>
+                                                                    <a class="dropdown-item ver pivr64 d-none" href="#" onclick="selectVersion('1.18.51')">1.18.51</a>
+                                                                    <a class="dropdown-item ver pivr64 d-none" href="#" onclick="selectVersion('1.18.50')">1.18.50</a>
+                                                                    <a class="dropdown-item ver pivr64 d-none" href="#" onclick="selectVersion('1.18.49')">1.18.49</a>
+                                                                    <a class="dropdown-item ver pivr64 d-none" href="#" onclick="selectVersion('1.18.48')">1.18.48</a>
+                                                                                                    <a class="dropdown-item ver vrub64 d-none" href="#" onclick="selectVersion('1.18.52')">1.18.52</a>
+                                                                    <a class="dropdown-item ver vrub64 d-none" href="#" onclick="selectVersion('1.18.51')">1.18.51</a>
+                                                                    <a class="dropdown-item ver vrub64 d-none" href="#" onclick="selectVersion('1.18.50')">1.18.50</a>
+                                                                    <a class="dropdown-item ver vrub64 d-none" href="#" onclick="selectVersion('1.18.49')">1.18.49</a>
+                                                                    <a class="dropdown-item ver vrub64 d-none" href="#" onclick="selectVersion('1.18.48')">1.18.48</a>
+                                                                                                    <a class="dropdown-item ver mac d-none" href="#" onclick="selectVersion('1.18.40')">1.18.40</a>
+                                                                    <a class="dropdown-item ver mac d-none" href="#" onclick="selectVersion('1.18.37')">1.18.37</a>
+                                                                    <a class="dropdown-item ver mac d-none" href="#" onclick="selectVersion('1.18.33')">1.18.33</a>
+                                                                    <a class="dropdown-item ver mac d-none" href="#" onclick="selectVersion('1.18.31')">1.18.31</a>
+                                                                                                    <a class="dropdown-item ver appimage d-none" href="#" onclick="selectVersion('1.18.52')">1.18.52</a>
+                                                                    <a class="dropdown-item ver appimage d-none" href="#" onclick="selectVersion('1.18.51')">1.18.51</a>
+                                                                    <a class="dropdown-item ver appimage d-none" href="#" onclick="selectVersion('1.18.50')">1.18.50</a>
+                                                                    <a class="dropdown-item ver appimage d-none" href="#" onclick="selectVersion('1.18.49')">1.18.49</a>
+                                                                    <a class="dropdown-item ver appimage d-none" href="#" onclick="selectVersion('1.18.48')">1.18.48</a>
+                                                            </div>
+                        </div>
+                        <button class="btn btn-outline-light" onclick="downloadVitalRecorder()"><i class="fa fa-cloud-download-alt" aria-hidden="true"></i> Download</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="col-sm-3" >
+            <div class="card h-100">
+                <div class="card-header bg-light py-2">
+                    <a href="/boards?id=notice" class="text-dark text-truncate">Notice</a>
+                </div>
+                <ul class="list-group list-group-flush">
+                                            <li class="list-group-item list-group-item-action text-truncate py-2">
+                            <a href="/boards?id=notice&article=373" class="text-dark">Web Monitoring Connection Issue on Older VitalRecorder Versions</a>
+                            &nbsp;
+                                                    </li>
+                                            <li class="list-group-item list-group-item-action text-truncate py-2">
+                            <a href="/boards?id=notice&article=363" class="text-dark">VitalDB was introduced in the BJA journal.</a>
+                            &nbsp;
+                                                    </li>
+                                            <li class="list-group-item list-group-item-action text-truncate py-2">
+                            <a href="/boards?id=notice&article=20" class="text-dark">Drager Infinity patient monitor is now supported</a>
+                            &nbsp;
+                                                            <span class='text-muted'>(1)</span>
+                                                    </li>
+                                            <li class="list-group-item list-group-item-action text-truncate py-2">
+                            <a href="/boards?id=notice&article=19" class="text-dark">MAIC 2020 (Medical AI Challenge 2020)</a>
+                            &nbsp;
+                                                    </li>
+                                            <li class="list-group-item list-group-item-action text-truncate py-2">
+                            <a href="/boards?id=notice&article=11" class="text-dark">Masimo&#039;s ROOT is supported</a>
+                            &nbsp;
+                                                            <span class='text-muted'>(3)</span>
+                                                    </li>
+                                    </ul>
+            </div>
+        </div>
+            <div class="col-sm-3" >
+            <div class="card h-100">
+                <div class="card-header bg-light py-2">
+                    <a href="/boards?id=bugreport" class="text-dark text-truncate">Discussion</a>
+                </div>
+                <ul class="list-group list-group-flush">
+                                            <li class="list-group-item list-group-item-action text-truncate py-2">
+                            <a href="/boards?id=bugreport&article=747" class="text-dark">VR 1.18.45버전 파일 저장 경로 변경 설정 불가</a>
+                            &nbsp;
+                                                    </li>
+                                            <li class="list-group-item list-group-item-action text-truncate py-2">
+                            <a href="/boards?id=bugreport&article=746" class="text-dark">Precompiled Image Raspberry pi</a>
+                            &nbsp;
+                                                    </li>
+                                            <li class="list-group-item list-group-item-action text-truncate py-2">
+                            <a href="/boards?id=bugreport&article=743" class="text-dark">Conox integración con agilia o Base primea Orchestra tipo circuito cerrado</a>
+                            &nbsp;
+                                                    </li>
+                                            <li class="list-group-item list-group-item-action text-truncate py-2">
+                            <a href="/boards?id=bugreport&article=742" class="text-dark">capnography waveforms recorded in the VitalDB </a>
+                            &nbsp;
+                                                    </li>
+                                            <li class="list-group-item list-group-item-action text-truncate py-2">
+                            <a href="/boards?id=bugreport&article=739" class="text-dark">Servo-i 추출 변수들 </a>
+                            &nbsp;
+                                                            <span class='text-muted'>(1)</span>
+                                                    </li>
+                                    </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<footer class="py-3" >
+    <div class="container-fluid">
+                    <p class="mb-0">Copyright © 2016-2026 <a href="/forum?query=about">VitalDB</a>. Department of Anesthesiology and Pain Medicine, Seoul National University College of Medicine, Seoul, Korea.</p>
+            </div>
+</footer>
+
+
+    <!-- Alert Modal-->
+    <div class="modal fade" id="alertModal" tabindex="-1" role="dialog" aria-labelledby="alertModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="alertModalLabel">Alert</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Confirm</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Confirm Modal-->
+    <div class="modal fade" id="confirmModal" tabindex="-1" role="dialog" aria-labelledby="confirmModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="confirmModalLabel">Confirm</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body"></div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">No</button>
+                    <form class="d-inline" method="GET" action="#" novalidate>
+                        <button type="submit" class="btn btn-primary">Yes</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <script>
+        let selectedOS = "msi";
+        let selectedVersion = "1.18.52";
+
+        function selectOS(elem, type) {
+            selectedOS = type;
+            document.getElementById("osDropdown").innerHTML = elem.innerHTML;
+            hideElementsByClass("ver");
+            showElementsByClass(type);
+            const elements = document.querySelectorAll(`a.${type}`);
+            let latest = "";
+            if(elements.length > 0) latest = elements[0]
+            selectedVersion = latest ? latest.textContent.trim() : "";
+            document.getElementById("versionDropdown").textContent = selectedVersion;
+        }
+
+        function selectVersion(version) {
+            selectedVersion = version;
+            document.getElementById("versionDropdown").textContent = version;
+        }
+
+        function hideElementsByClass(className) {
+            const elements = document.querySelectorAll(`a.${className}`);
+            elements.forEach(element => {
+                element.classList.add("d-none");
+            });
+        }
+
+        function showElementsByClass(className) {
+            const elements = document.querySelectorAll(`a.${className}`);
+            elements.forEach(element => {
+                element.classList.remove("d-none");
+            });
+        }
+
+        function downloadVitalRecorder() {
+            const downloadUrl = `/getvr.php?type=${selectedOS}&ver=${selectedVersion}`;
+            window.location.href = downloadUrl;
+        }
+    </script>
+        <script src="/static/vendor/js-cookie/js.cookie.js?v=1785562734"></script>
+    <script src="/static/vendor/jquery/jquery.min.js?v=1785562734"></script>
+    <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js?v=1785562734"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/vendor/jquery-easing/jquery.easing.min.js?v=1785562734"></script>
+    <script src="/static/vendor/holder.js/holder.min.js?v=1785562734"></script>
+    
+    <script>
+        var g5_is_member = "";
+    </script>
+    <script src="/static/js/template.js?v=1785562734"></script>
+    
+    <script src="/static/vendor/jQuery-BinaryTransport/jquery.binarytransport.js?v=1785562734"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/aws-sdk-2.485.0.min.js"></script>
+</body>
+
+</html>

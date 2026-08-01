@@ -1,0 +1,44 @@
+{
+  "claim": 5,
+  "attempt": 2,
+  "outcome": "inconclusive",
+  "scope": "official VitalDB/history and author-release availability audit only; no proxy clinical cohort or numerical claim reproduction",
+  "source_checks": {
+    "cohort": true,
+    "window": true,
+    "xgboost": true,
+    "trials": true,
+    "comparison": true
+  },
+  "source_tex_sha256": "978d4ffb184ac7188fbf0624f42275317abbcaa9e245a17a837a40c595df3a43",
+  "retrieval_manifest_sha256": "6789d99b5c3ffdbafa08463787265d67e50cafccc4e6ebc99f64d401a5eeb156",
+  "exact_title_repository_search_total": 0,
+  "author_query_repository_search_total": 0,
+  "non_reproduction_code_hits": [],
+  "virtual_page_has_release_marker": {
+    "supplement": false,
+    "github.com": false,
+    "code release": false
+  },
+  "retrieved_endpoints": [
+    "200\thttps://api.github.com/search/repositories?q=%22Learning%20U-Statistics%20with%20Active%20Inference%22\tevidence/claim5_attempt2/repos_exact.json",
+    "200\thttps://api.github.com/search/repositories?q=U-Statistics+active+inference+Wang+Huo+Peng+Zou\tevidence/claim5_attempt2/repos_authors.json",
+    "200\thttps://api.github.com/search/users?q=Xiaoning%20Wang%20in%3Afullname\tevidence/claim5_attempt2/users_wang.json",
+    "200\thttps://api.github.com/search/users?q=Yuyang%20Huo%20in%3Afullname\tevidence/claim5_attempt2/users_huo.json",
+    "200\thttps://api.github.com/search/users?q=Liuhua%20Peng%20in%3Afullname\tevidence/claim5_attempt2/users_peng.json",
+    "200\thttps://api.github.com/search/users?q=Changliang%20Zou%20in%3Afullname\tevidence/claim5_attempt2/users_zou.json",
+    "403\thttps://api2.openreview.net/notes?forum=BwufLjXbMO\tevidence/claim5_attempt2/openreview_forum.json",
+    "200\thttps://vitaldb.net/dataset/\tevidence/claim5_attempt2/vitaldb_dataset.html",
+    "200\thttps://vitaldb.net/\tevidence/claim5_attempt2/vitaldb_home.html",
+    "200\thttps://api.vitaldb.net/cases\tevidence/claim5_attempt2/vitaldb_cases.json",
+    "200\thttps://icml.cc/virtual/2026/poster/65606\tevidence/claim5_attempt2/icml_virtual.html"
+  ],
+  "source_faithful_rerun_possible": false,
+  "blockers": [
+    "No exact-title author repository was returned by retained GitHub repository searches.",
+    "The official virtual-paper page supplies the abstract but no retained supplement/code-release marker.",
+    "The retained VitalDB pages/API responses identify current access endpoints, not the accepted snapshot, selected 6,388-case cohort, or paper-era extraction manifest.",
+    "The pinned source still omits case identifiers, covariate preprocessing, XGBoost hyperparameters, fold/pilot construction, active-sampling seeds, and 3,000 trial outputs."
+  ],
+  "next_action": "claim_5_attempt_3_search_archived author/repository release history and paper-source assets; only run CPU protocol if all missing source-faithful inputs are recovered"
+}

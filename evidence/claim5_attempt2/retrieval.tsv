@@ -1,0 +1,11 @@
+200	https://api.github.com/search/repositories?q=%22Learning%20U-Statistics%20with%20Active%20Inference%22	evidence/claim5_attempt2/repos_exact.json
+200	https://api.github.com/search/repositories?q=U-Statistics+active+inference+Wang+Huo+Peng+Zou	evidence/claim5_attempt2/repos_authors.json
+200	https://api.github.com/search/users?q=Xiaoning%20Wang%20in%3Afullname	evidence/claim5_attempt2/users_wang.json
+200	https://api.github.com/search/users?q=Yuyang%20Huo%20in%3Afullname	evidence/claim5_attempt2/users_huo.json
+200	https://api.github.com/search/users?q=Liuhua%20Peng%20in%3Afullname	evidence/claim5_attempt2/users_peng.json
+200	https://api.github.com/search/users?q=Changliang%20Zou%20in%3Afullname	evidence/claim5_attempt2/users_zou.json
+403	https://api2.openreview.net/notes?forum=BwufLjXbMO	evidence/claim5_attempt2/openreview_forum.json
+200	https://vitaldb.net/dataset/	evidence/claim5_attempt2/vitaldb_dataset.html
+200	https://vitaldb.net/	evidence/claim5_attempt2/vitaldb_home.html
+200	https://api.vitaldb.net/cases	evidence/claim5_attempt2/vitaldb_cases.json
+200	https://icml.cc/virtual/2026/poster/65606	evidence/claim5_attempt2/icml_virtual.html
