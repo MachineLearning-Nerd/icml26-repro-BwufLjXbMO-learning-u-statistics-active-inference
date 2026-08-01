@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8f6xIy8H/zuC3sV15e0Fp/mT/o8</id>
+  <title>arXiv Query: search_query=all:"Can unconfident LLM annotations"&amp;id_list=&amp;start=0&amp;max_results=5</title>
+  <updated>2026-08-01T05:52:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22Can+unconfident+LLM+annotations%22&amp;start=0&amp;max_results=5&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>5</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2408.15204v2</id>
+    <title>Can Unconfident LLM Annotations Be Used for Confident Conclusions?</title>
+    <updated>2025-02-08T15:15:35Z</updated>
+    <link href="https://arxiv.org/abs/2408.15204v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.15204v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) have shown high agreement with human raters across a variety of tasks, demonstrating potential to ease the challenges of human data collection. In computational social science (CSS), researchers are increasingly leveraging LLM annotations to complement slow and expensive human annotations. Still, guidelines for collecting and using LLM annotations, without compromising the validity of downstream conclusions, remain limited. We introduce Confidence-Driven Inference: a method that combines LLM annotations and LLM confidence indicators to strategically select which human annotations should be collected, with the goal of producing accurate statistical estimates and provably valid confidence intervals while reducing the number of human annotations needed. Our approach comes with safeguards against LLM annotations of poor quality, guaranteeing that the conclusions will be both valid and no less accurate than if we only relied on human annotations. We demonstrate the effectiveness of Confidence-Driven Inference over baselines in statistical estimation tasks across three CSS settings--text politeness, stance, and bias--reducing the needed number of human annotations by over 25% in each. Although we use CSS settings for demonstration, Confidence-Driven Inference can be used to estimate most standard quantities across a broad range of NLP problems.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-27T17:03:18Z</published>
+    <arxiv:comment>Please cite as: Can Unconfident LLM Annotations Be Used for Confident Conclusions? Kristina Gligorić, Tijana Zrnic, Cinoo Lee, Emmanuel Candès, and Dan Jurafsky. NAACL, 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Kristina Gligorić</name>
+    </author>
+    <author>
+      <name>Tijana Zrnic</name>
+    </author>
+    <author>
+      <name>Cinoo Lee</name>
+    </author>
+    <author>
+      <name>Emmanuel J. Candès</name>
+    </author>
+    <author>
+      <name>Dan Jurafsky</name>
+    </author>
+  </entry>
+</feed>
