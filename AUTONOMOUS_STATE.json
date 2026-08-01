@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "openreview_id": "BwufLjXbMO",
-  "phase": "logbook_ready_for_independent_review",
-  "next_action": "launch_fresh_scientific_and_challenge_compliance_reviews_then_remediate_before_publish",
+  "phase": "claim_attempt_policy_gap_logbook_draft_retained",
+  "next_action": "claim_1_attempt_2_independent_verification_then_claim_1_attempt_3_before_any_publication_review",
   "active_run_ids": [],
   "completed_milestones": [
     "live_duplicate_gate",
@@ -143,5 +143,48 @@
     "official_validator": "passed",
     "space_id": "DineshAI/repro-BwufLjXbMO-u-statistics-active-inference",
     "trace_attached": true
+  },
+  "attempt_policy_compliance": {
+    "required_independent_verification_paths_per_claim": 3,
+    "required_falsification_only_if_unresolved": 1,
+    "claims": {
+      "1": {
+        "verification_paths": 1,
+        "falsification_attempts": 0,
+        "missing_verification_paths": 2,
+        "compliant": false
+      },
+      "2": {
+        "verification_paths": 1,
+        "falsification_attempts": 0,
+        "missing_verification_paths": 2,
+        "compliant": false
+      },
+      "3": {
+        "verification_paths": 1,
+        "falsification_attempts": 0,
+        "missing_verification_paths": 2,
+        "compliant": false
+      },
+      "4": {
+        "verification_paths": 3,
+        "falsification_attempts": 1,
+        "missing_verification_paths": 0,
+        "compliant": true
+      },
+      "5": {
+        "verification_paths": 3,
+        "falsification_attempts": 1,
+        "missing_verification_paths": 0,
+        "compliant": true
+      },
+      "6": {
+        "verification_paths": 3,
+        "falsification_attempts": 1,
+        "missing_verification_paths": 0,
+        "compliant": true
+      }
+    },
+    "evidence": "ATTEMPT_POLICY_GAP.md"
   }
 }
