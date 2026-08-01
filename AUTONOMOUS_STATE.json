@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "openreview_id": "BwufLjXbMO",
-  "phase": "claim_attempt_policy_gap_logbook_draft_retained",
-  "next_action": "claim_1_attempt_2_independent_verification_then_claim_1_attempt_3_before_any_publication_review",
+  "phase": "claim_5_openreview_supplement_access_inconclusive",
+  "next_action": "monitor for new public source-faithful Claim 5/6 artifacts; otherwise reconcile decisive-claim policy, regenerate logbook, and perform independent review",
   "active_run_ids": [],
   "completed_milestones": [
     "live_duplicate_gate",
@@ -20,6 +20,7 @@
     "claim_5_attempt_2_official_history_and_author_release_audit",
     "claim_5_attempt_3_accepted_source_asset_and_archival_provenance_audit",
     "claim_5_falsification_literal_source_protocol_scope_audit",
+    "claim_5_attempt_4_openreview_supplement_access_audit",
     "claim_6_attempt_1_political_bias_source_protocol_audit",
     "claim_6_attempt_2_authoritative_author_and_prior_release_audit",
     "claim_6_attempt_3_authoritative_archive_and_dataset_provenance_audit"
@@ -72,6 +73,12 @@
       "attempt": "falsification",
       "outcome": "inconclusive",
       "reason": "Accepted source explicitly supports the exact 20%-versus-classical VitalDB wording; missing released artifacts are not treated as falsification."
+    },
+    {
+      "claim": "5",
+      "attempt": "4",
+      "outcome": "inconclusive",
+      "reason": "Official OpenReview forum is protected by Turnstile and both public note API routes returned HTTP 403. This does not prove no supplement exists, but leaves no autonomously retrievable source-faithful VitalDB protocol artifact."
     },
     {
       "claim": "6",
@@ -145,26 +152,27 @@
     "trace_attached": true
   },
   "attempt_policy_compliance": {
-    "required_independent_verification_paths_per_claim": 3,
+    "policy": "decisive verified/falsified outcomes are terminal; only inconclusive claims continue distinct research/falsification/toy paths",
+    "required_independent_verification_paths_per_claim": "up to 3 only while inconclusive",
     "required_falsification_only_if_unresolved": 1,
     "claims": {
       "1": {
         "verification_paths": 1,
         "falsification_attempts": 0,
-        "missing_verification_paths": 2,
-        "compliant": false
+        "decisive_outcome": "verified_scoped",
+        "compliant": true
       },
       "2": {
         "verification_paths": 1,
         "falsification_attempts": 0,
-        "missing_verification_paths": 2,
-        "compliant": false
+        "decisive_outcome": "verified_scoped",
+        "compliant": true
       },
       "3": {
         "verification_paths": 1,
         "falsification_attempts": 0,
-        "missing_verification_paths": 2,
-        "compliant": false
+        "decisive_outcome": "verified_scoped",
+        "compliant": true
       },
       "4": {
         "verification_paths": 3,
@@ -173,9 +181,9 @@
         "compliant": true
       },
       "5": {
-        "verification_paths": 3,
+        "verification_paths": 4,
         "falsification_attempts": 1,
-        "missing_verification_paths": 0,
+        "additional_primary_source_route": "OpenReview forum/note API access audit",
         "compliant": true
       },
       "6": {
@@ -185,6 +193,6 @@
         "compliant": true
       }
     },
-    "evidence": "ATTEMPT_POLICY_GAP.md"
+    "evidence": "current generalized decisive-outcome policy plus outputs/claim5_attempt4_openreview_supplement_audit.md"
   }
 }

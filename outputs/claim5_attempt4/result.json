@@ -1,0 +1,31 @@
+{
+  "claim": 5,
+  "attempt": 4,
+  "outcome": "inconclusive",
+  "scope": "official OpenReview supplement-access audit only; no proxy VitalDB experiment or claim verdict inference from access control",
+  "forum_http_status": "200",
+  "forum_turnstile_present": true,
+  "api_http_statuses": [
+    "403",
+    "403"
+  ],
+  "queried_endpoints": [
+    "6ee59857bd9f\thttps://api2.openreview.net/notes?forum=BwufLjXbMO",
+    "e8b9f7a12d9c\thttps://api.openreview.net/notes?forum=BwufLjXbMO"
+  ],
+  "evidence_sha256": {
+    "api_6ee59857bd9f.body": "28fd28a9923964a9cab7d34eb97da982cbef8309330801e69e9c0173d6be9e59",
+    "api_6ee59857bd9f.headers": "c82493cdd56da2d923e7e0e084961224721f85ce5a777d0d010de4e1cfa9bf69",
+    "api_6ee59857bd9f.status": "97a58cc66d1cd6b51466af8ed52d6a38053b5572fee09a0ae8859c26b82bdf67",
+    "api_e8b9f7a12d9c.body": "2bc9ec09d7c9687011c7b4716f63552dd464798bf8b03181368725c3043f3a24",
+    "api_e8b9f7a12d9c.headers": "a75406ebd2df2182226bc9b527a76ef41fa5b370919677f1bcdf46a9009af664",
+    "api_e8b9f7a12d9c.status": "97a58cc66d1cd6b51466af8ed52d6a38053b5572fee09a0ae8859c26b82bdf67",
+    "endpoints.tsv": "54f81a06250dbb997dad4f4c9c62c414503b00cb08d3a131bf35666284de73ec",
+    "openreview_forum.headers": "5cf8667ae146b7316742e500f0283fc87fbb1bd53087b392e0a5beb2678f7cba",
+    "openreview_forum.html": "59b48ae420da0d36fab5e19e1b9261eefe1c61f0dd1b63c96de0896ac3167123",
+    "openreview_forum.status": "c11e3f4837efde2441e23a7b9da02131f53bf59fddeb7147c4ab81afe400460f"
+  },
+  "source_faithful_rerun_possible": false,
+  "finding": "The public forum returns a verification challenge and both public note API routes return 403. This does not prove no supplement exists; it leaves any non-public attachment unavailable to the autonomous CPU reproduction.",
+  "next_action": "continue Claim 5 only if a new public, source-faithful VitalDB protocol/data artifact becomes available; otherwise retain inconclusive evidence and proceed with other claim/logbook milestones"
+}

@@ -1,0 +1,18 @@
+HTTP/2 403 
+server: nginx
+date: Sat, 01 Aug 2026 06:31:55 GMT
+content-type: application/json; charset=utf-8
+content-length: 252
+vary: Origin
+access-control-allow-credentials: true
+x-ratelimit-limit: 180
+x-ratelimit-remaining: 170
+x-ratelimit-reset: 1785565950
+ratelimit-policy: 180;w=60
+ratelimit-limit: 180
+ratelimit-remaining: 170
+ratelimit-reset: 35
+etag: W/"fc-LRiww4lYmU8/SI/O4xiZsLZFGFM"
+via: 1.1 google, 1.1 google
+alt-svc: h3=":443"; ma=2592000
+
