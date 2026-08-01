@@ -1,0 +1,47 @@
+{
+  "claim": 5,
+  "attempt": 3,
+  "outcome": "inconclusive",
+  "scope": "accepted arXiv source-package/archival asset audit only; no proxy VitalDB cohort or numerical rerun",
+  "source_tex_sha256": "978d4ffb184ac7188fbf0624f42275317abbcaa9e245a17a837a40c595df3a43",
+  "source_readme_sha256": "bb58a2436da0e2a932322bcc500bfaf08f0c70a1b0ef154f6078929b85421842",
+  "source_archive_sha256": "b869beb747d8c50c12dfbe3c13a2420f58334814a6d80bbac9748ae19b73ef9a",
+  "source_asset_inventory_sha256": "8dfed215ddb5bda200356bb2be2f82bfac438db7002539f93a05345a0ec67309",
+  "source_file_count": 14,
+  "figure_assets": [
+    "Figure/combined_U_estimator.pdf",
+    "Figure/combined_gini.pdf",
+    "Figure/combined_kendall.pdf",
+    "Figure/combined_saving.pdf",
+    "Figure/combined_simulation.pdf",
+    "Figure/combined_wilcoxon.pdf",
+    "Figure/simulation_mse_vs_budget.pdf"
+  ],
+  "executable_or_data_assets": [],
+  "source_facts": {
+    "vitaldb_cases": true,
+    "hemoglobin_window": true,
+    "paired_outcome": true,
+    "xgboost": true,
+    "three_thousand_trials": true,
+    "claimed_twenty_percent": true,
+    "figure_reference": true
+  },
+  "author_release_history_evidence": {
+    "attempt_2_exact_title_repositories": "evidence/claim5_attempt2/repos_exact.json",
+    "attempt_2_author_repositories": "evidence/claim5_attempt2/repos_authors.json",
+    "attempt_2_virtual_paper": "evidence/claim5_attempt2/icml_virtual.html",
+    "finding": "retained prior authoritative author/history records contain no executable or supplement; this attempt does not repeat those network searches"
+  },
+  "vitaldb_archival_evidence": {
+    "attempt_1_manifest": "evidence/claim5_attempt1/retrieval.tsv",
+    "finding": "retained official VitalDB endpoint captures identify current access APIs, not the accepted snapshot, selected-case manifest, paper-era preprocessing, or trial outputs"
+  },
+  "source_faithful_rerun_possible": false,
+  "blockers": [
+    "Accepted source package contains TeX, styles, bibliography, and figure PDFs but no executable, data snapshot, case manifest, model serialization, seed/configuration, or trial-output artifact.",
+    "The source describes the cohort/window/outcome and reports the 20% result but omits selected case IDs, covariate preprocessing, XGBoost hyperparameters, pilot/fold assignment, active-sampling seeds, and 3,000-run outputs.",
+    "Retained official VitalDB and author/history evidence from distinct prior attempts does not close those missing inputs."
+  ],
+  "next_action": "claim_5_falsification_attempt_literal_source/protocol scope audit; do not run a proxy VitalDB experiment"
+}
